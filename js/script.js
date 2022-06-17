@@ -19,10 +19,14 @@ function getNumberInfo() {
 /*
     Function to return the index of the first term in the Fibonacci sequence
     to contain n digits
-    digitFibonacci(5)  returns 21
-    digitFibonacci(10) returns 45
-    digitFibonacci(15) returns 69
-    digitFibonacci(20) returns 93
+
+    digitFibonacci(5)    returns 21
+    digitFibonacci(10)   returns 45
+    digitFibonacci(15)   returns 69
+    digitFibonacci(20)   returns 93
+    digitFibonacci(50)   returns 237
+    digitFibonacci(100)  returns 476
+    digitFibonacci(1000) returns 4782
 */
 function digitFibonacci(n) {
     // Need to Use BigInt for f0 and f1
