@@ -57,3 +57,26 @@ The function `digitFibonacci(n)` returns a number, where `n` is the number of di
 ## Features
 
 Allows the user to enter the number of digits as well as getting the index of the first term containing that number of digits.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.2.0-Beta1 and Google Fonts.
+
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-025) at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [Project Euler](https://projecteuler.net)
+- [FreeCodeCamp](https://www.freecodecamp.org)
