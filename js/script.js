@@ -15,3 +15,22 @@ function getNumberInfo() {
     // Display Information in the Browser
     document.getElementById("numinfo").innerHTML = txt;
 }
+
+/*
+    Function to return the index of the first term in the Fibonacci sequence
+    to contain n digits
+    digitFibonacci(5)  returns 21
+    digitFibonacci(10) returns 45
+    digitFibonacci(15) returns 69
+    digitFibonacci(20) returns 93
+*/
+function digitFibonacci(n) {
+    // Need to Use BigInt for f0 and f1
+    let f0 = 0n, f1 = 1n, i = 1;
+    while (String(f1).length < n) {
+        [f0,f1] = [f1, f0 + f1];
+        i++;
+    }
+
+    return i;
+}
