@@ -7,9 +7,14 @@ body {
     padding: 1rem;
 }
 
+/* Subtitle */
+h2 {
+    color: purple;
+}
+
 /* Instructions and Terms */
 .instructions {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .terms {
