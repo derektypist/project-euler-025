@@ -9,7 +9,7 @@ function getNumberInfo() {
         txt += `Invalid Input.  Please enter a whole number between 1 and 2000.`;
     } else {
         txt += `You have entered the number ${num}.<p>`;
-        txt += `Index of First Term to contain ${num} digits is ${digitFibonacci(num)}.`;
+        txt += `Index of First Term in the Fibonacci sequence to contain ${num} digits is ${digitFibonacci(num)}.`;
     }
 
     // Display Information in the Browser
