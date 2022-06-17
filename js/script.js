@@ -8,7 +8,7 @@ function getNumberInfo() {
     if (isNaN(num) || num.toString().length == 0 || num<1 || num>2000 || !Number.isInteger(Number(num))) {
         txt += `Invalid Input.  Please enter a whole number between 1 and 2000.`;
     } else {
-        txt += `You have entered the number ${num}.`;
+        txt += `You have entered the number ${num}.  `;
         txt += `Index of First Term to contain ${num} digits is ${digitFibonacci(num)}.`;
     }
 
