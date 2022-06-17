@@ -27,7 +27,18 @@ Information at [Project Euler 025](https://projecteuler.net/problem=25)
 
 ## UX
 
+**Getting Started**
+
+Enter the number of digits between 1 and 2000 and click on the Submit Button.  You will see the index of the first term to contain that number of digits, unless you have made an invalid input.  For example, if you entered 5 digits, you would expect the index to be 21.  Click on the Reset Button to clear the information or to start again.
+
 **User Stories**
+
+As a user, I expect to get an error message, if I do any of:
+
+- Not enter anything in the input field
+- Entering text other than a number
+- Entering a number less than 1 or greater than 2000
+- Entering a number, but it is not an integer
 
 As a user, I expect the function `digitFibonacci(5)` to return a number.
 
