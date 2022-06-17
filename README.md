@@ -52,4 +52,8 @@ As a user, I expect the function `digitFibonacci(20)` to return 93.
 
 **Information Architecture**
 
-The function `digitFibonacci(n)` returns a number, where `n` is the number of digits.
+The function `digitFibonacci(n)` returns a number, where `n` is the number of digits between 1 and 2000.
+
+## Features
+
+Allows the user to enter the number of digits as well as getting the index of the first term containing that number of digits.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
